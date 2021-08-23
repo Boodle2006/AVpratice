@@ -11,6 +11,7 @@
 		17AC9F3126D3F7E500C0AACF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AC9F3026D3F7E500C0AACF /* ContentView.swift */; };
 		17AC9F3326D3F7ED00C0AACF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17AC9F3226D3F7ED00C0AACF /* Assets.xcassets */; };
 		17AC9F3626D3F7ED00C0AACF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17AC9F3526D3F7ED00C0AACF /* Preview Assets.xcassets */; };
+		17AC9F3F26D3F80C00C0AACF /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17AC9F3E26D3F80C00C0AACF /* AVKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		17AC9F3226D3F7ED00C0AACF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17AC9F3526D3F7ED00C0AACF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		17AC9F3726D3F7ED00C0AACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17AC9F3E26D3F80C00C0AACF /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17AC9F3F26D3F80C00C0AACF /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +41,7 @@
 			children = (
 				17AC9F2D26D3F7E500C0AACF /* AVpractice */,
 				17AC9F2C26D3F7E500C0AACF /* Products */,
+				17AC9F3D26D3F80C00C0AACF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +71,14 @@
 				17AC9F3526D3F7ED00C0AACF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		17AC9F3D26D3F80C00C0AACF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17AC9F3E26D3F80C00C0AACF /* AVKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
